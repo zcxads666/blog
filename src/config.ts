@@ -4,48 +4,18 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     title: "示例分类1",
     sites: [
       {
+        /** 网站标题 */
         title: "主标题",
-        url: "http://www.your-web-page.com/",
+        /** 网站 url */
+        url: "http://www.myBlog.com/",
+        /** 网站 icon 图标，非必填，留空默认展示网站标题的第一个字符 */
         icon: "",
+        /** 指定网站 icon 背景色 */
         color: "#0171CD",
       },
-      {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
-      },
-      {
-        title: "主标题",
-        description: "网站描述",
-        url: "http://www.your-web-page.com/",
-        icon: "",
-      },
     ],
   },
-  {
-    title: "示例分类2",
-  },
-  {
-    title: "示例分类3",
-  },
-  {
-    title: "示例分类4",
-  },
-  {
-    title: "示例分类5",
-  },
-  {
-    title: "友情链接",
-    sites: [
-      {
-        title: "EsunR Blog",
-        description: "EsunR 的博客",
-        url: "https://www.esunr.xyz",
-        icon: "https://esunr-image-bed.oss-cn-beijing.aliyuncs.com/logo.jpg",
-      },
-    ],
-  },
+  // ... ...
 ];
 
 /** Website 配置（2023.3.29 已废弃） */
@@ -109,5 +79,6 @@ const GLOBAL_CONFIG = {
     description: "This is my personal blog index page.",
   },
 };
+
 
 export default GLOBAL_CONFIG;
